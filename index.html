@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeMaster Countdown Timer</title>
+   <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="container text-center my-5">
+        <h1 class="mb-4">TimeMaster</h1>
+
+        <div class="input-group mb-3 justify-content-center">
+            <input type="text" id="timeInput" class="form-control w-25 text-center" placeholder="MM:SS" maxlength="5">
+        </div>
+
+        <div id="timerDisplay" class="display-4 font-weight-bold">00:00</div>
+
+        <div class="mt-4">
+            <button id="startBtn" class="btn btn-success mx-1">Start</button>
+            <button id="pauseBtn" class="btn btn-warning mx-1">Pause</button>
+            <button id="resetBtn" class="btn btn-danger mx-1">Reset</button>
+        </div>
+    </div>
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
